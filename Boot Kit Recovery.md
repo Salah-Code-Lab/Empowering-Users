@@ -496,7 +496,7 @@ the normal options should include
 and we should be done here 
 if there was some parts that was misunderstood or you are maybe stuck on some part 
 
-[you can see this video yes it is not the best edit in the world and it is not my job but i tried](https://www.youtube.com/watch?v=e7tWWBpIsrQ)
+[you can see this video yes it is not the best edit in the world and it is not my job but i tried MBR](https://www.youtube.com/watch?v=e7tWWBpIsrQ)
 
 
 
@@ -744,7 +744,7 @@ then back up your data and reset your PC
 
 because there may be something actively killing your way of recovery always
 
-[you can see this video yes it is not the best edit in the world and it is not my job but i tried](https://www.youtube.com/watch?v=orPdDuhufIQ)
+[you can see this video yes it is not the best edit in the world and it is not my job but i tried For GPT](https://www.youtube.com/watch?v=orPdDuhufIQ)
 
 
 
