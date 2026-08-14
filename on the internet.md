@@ -48,4 +48,53 @@ Your IP address isn't as sensitive as you may think. It is just a network identi
 
 Do not give these low-life bums a single buck. Don't even give them two shits of a fuck. Just block them. 
 
-Or, if you are an advanced operator, waste their time. For casual users: **just block them and move on.**
+## Distributed Denial of Service Attacks (DDoS) and Internet Service Providers (ISPs)
+
+While DDoS attacks do happen, overcoming one on a personal connection often just takes getting a new **IP (Internet Protocol) address**.
+
+* **The Router Restart:** Restarting your router can essentially "ghost" the attack. The attackers will continue targeting your old, offline IP address, rendering their efforts useless once your router starts up again with a fresh IP.
+
+> if an ISP uses Static IP addresses or long Release times for the IP, restarting the router will reassign the exact same IP address.
+> So make sure that DHCP is present (Not on you but it is on the ISP (Internet Service Provider)) and shut off your router for at least a good 3 minutes
+
+* **Example:** 
+  * If you live in a city like Houston, your initial IP locates you generally within Houston. 
+  * Restarting your router can assign you to a different node. You’ll still appear in Houston, but your specific routing path and IP will have changed.
+  * If the nodes are centralized and your location doesn't change, your IP address often will.
+* **DDoS Targets:** Restarting your router is enough to end a DDoS attack on your end in *some* cases. However, DDoS attacks are rarely used against individual home users because they require A LOT of resources. They are far more commonly launched against major servers—such as gaming servers like **Hypixel (Minecraft)** or **UGC (Team Fortress 2)**.
+
+
+## Swatting
+
+Swatting is a very dangerous threat that many people fear. However, bad actors need your physical address to carry it out. 
+
+### Prevention & Extortion
+* **Protect Your Information:** Be careful about what you share online to avoid giving away personal details.
+* **Never Pay Extortionists:** If attackers obtain your location and try to blackmail you, **block them immediately and do not pay**. Paying them only encourages more extortion they will keep trying to drain your wallet.
+
+### What to Do If Threatened
+1. **Contact Emergency Services:** Call **911** (in the US) or **112** (works internationally to reach local police) to inform them of the threat beforehand so they have it on record.
+2. **Be Aware of System Mismatches:** Miscommunications still happen, so alerting authorities isn't a 100% guarantee, but it helps.
+
+### How to Handle a SWAT Situation
+In the worst scenario where law enforcement shows up at your home:
+
+> **My Advice:** Stay still, keep your hands visible, and follow all instructions strictly. Moving suddenly or misbehaving increases the risk of someone getting hurt.
+
+* **Why be afraid if you haven't committed a crime?** Fear of the unknown is completely normal. 
+* **Comply fully with law enforcement:** If you see official law enforcement or a SWAT team, **do not attempt self-defense under any circumstances**. Keep your hands up, visible, and comply completely to ensure your safety.
+* **Differentiate the threat:** Only prepare for self-defense if it is completely clear that the person entering your home is an actual criminal or home invader And NOT real police.
+
+
+That is practically on the internet 
+I tried to cover up most of the stuff i will see if there is anything else Missing then i would add it anyway 
+
+if you noticed Misinformation or Issues 
+Raise an issue Or/AND Contact me on session:
+
+> 056bf8ea1a057b4f351d8b651944252cd4d88416ce6c11761f0c406f228a302301
+
+
+and as always 
+
+> Stay Safe out there
