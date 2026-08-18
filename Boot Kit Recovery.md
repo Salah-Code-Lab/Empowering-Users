@@ -5,6 +5,11 @@
 
 A Bootkit is a program that opens a handle to the boot drive (usually `\\.\PhysicalDrive0`) and writes malicious code to the first few boot sectors. This forces the system to execute its binaries first during boot before handing off execution to the Operating System.
 
+and this definition is for the most common, classic type of bootkit.
+
+> If you were searching for the full definition you will find it at the bottom of the file or manual 
+
+
 
 ## This Manual what does it help against ? 
 
@@ -768,3 +773,23 @@ if you find any issues please contact me or/and raise an issue
 
 
 that is my session ID 
+
+
+> Some users had been telling me the Definition of the Bootkit is too Narrow 
+
+> That is intentional since this is Presumably a user first time recovery against bootkits, the Definitions don't need to be Specific or complicated 
+
+> And finally some parts of the manual does already fix the other issues such as 
+> * BCD Manipulation
+> * Sector Loading, Mounting Abuse 
+
+> but it doesn't stop the type that may replace Bootmgfw.efi entirely though rare but possible 
+
+> All and all the Manual is meant to be narrow in the Definition Overall but if you were searching for the Full definition ? it would be 
+
+> A Bootkit is a Malicious software that abuses the Boot process in multiple ways to achieve execution before the OS starts to gain Persistence and Stealth 
+
+> and even then it is heavily simplified 
+
+
+
