@@ -48,6 +48,29 @@ Your IP address isn't as sensitive as you may think. It is just a network identi
 
 Do not give these low-life bums a single buck. Don't even give them two shits of a fuck. Just block them. 
 
+
+## Cyber Threats 
+
+Disgusting unneeded ineffective 
+
+If you ever see them just treat them as Text no one through the internet can Physically harm you anyway so why be reactive with them anyway ?
+
+You can Block them you can waste their Time you can do anything in your mind 
+
+But if you are effected by these Threats then just Ignore this Implies on every single group 
+
+Even if it was a mere Discord server if you were getting harassed you can report the users and block them 
+
+But if they were really effecting you in a way making you Feel Uncomfortable just Leave Upfront Do not Attempt to talk to these users or get in arguments with them 
+
+They will not Listen they wont take your words they just want to harass and sometimes wish death upon you 
+
+So leaving isn't losing anything leaving is Preserving your mind so you can focus 
+
+Ignoring isn't an act of a lost argument its an Act of Preserving focus 
+
+So whatever threats you face just ignore Unless if it was swatting and someone actually had your location then go to the Swatting Section
+
 ## Distributed Denial of Service Attacks (DDoS) and Internet Service Providers (ISPs)
 
 While DDoS attacks do happen, overcoming one on a personal connection often just takes getting a new **IP (Internet Protocol) address**.
