@@ -40,6 +40,8 @@ Now, lock this rule into your core evaluation logic:
 
 > **If a process queries VMware tools, VirtualBox, QEMU, or Motherboard/BIOS details specifically to inspect its environment (what I call *Environmental Awareness*) consider it malicious right away.**
 
+> Exceptions exist, there are some legitimate apps that do query the BIOS info, CPU Info, and others, you need context at that point to determine if it is legitimate or irregular.
+
 Even if it claims to be a legitimate utility, querying that kind of hardware telemetry without a functional reason indicates anti-analysis behavior. It is gathering data it has no business requesting, often harvesting hardware information that belongs to **you**. 
 
 *(Note: Services like Steam's Hardware Survey are an exception because they explicitly ask for your consent first and only collect high-level hardware specs.)*
