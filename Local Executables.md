@@ -134,7 +134,7 @@ Note that BYOVD (Bring Your Own Vulnerable Driver) attacks are sometimes limited
 
 Just don't run any executable you see—as easy as that.
 
-Use a tool named `ConfigureDefender.exe` and configure Defender as **High** (not **Max**, as it causes too many false positives).
+Use a tool named [ConfigureDefender.exe](https://github.com/AndyFul/ConfigureDefender) and configure Defender as **High** (not **Max**, as it causes too many false positives).
 
 Use CFA wisely and rigorously.
 
