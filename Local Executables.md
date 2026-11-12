@@ -24,10 +24,27 @@ Never underestimate the Medium Integrity Token. That is why you should check any
 
 Though this token may seem dangerous—because it is—it is present on every executable you double-click. This includes `firefox.exe`, `explorer.exe`, `notepad.exe`, and others.
 
-However, this token is incapable of persisting on a PC unless it finds a vulnerability (*LEGACY HIVES, AHEM, AHEM*) or other vulnerable software.
+However, this token is Capable of persisting on your PC via Run keys in HKCU for example.
+
+### Common ways to persist: 
+
+1. Populating itself as a scheduled task
+
+2. Adding itself to run keys within the HKCU hive
+
+* Run keys can be multiple such as:
+HKCU\Software\Microsoft\Windows\CurrentVersion\Run
+HKCU\Software\Microsoft\Windows\CurrentVersion\RunOnce
+HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run
+
+3. COM Hijacking 
+
+etc, etc. 
+
+
 
 The counter to it is mainly just not downloading any executable you see. But if you can't and you just have that urge, at least:
-* Have CFA (Controlled Folder Access via Defender) enabled.
+* Have CFA (Controlled Folder Access via Defender) enabled (Write Protection Only).
 * Check it on VirusTotal.
 
 As for `.dll` files, they can be executed via any other executable and will inherit the parent token (Medium Integrity or High Integrity Token [Admin]). 
@@ -36,8 +53,8 @@ This is why "I didn't run any .exe" is not a defense. If a program you trust loa
 
 ## The Bottom Line
 
-Standard user malware can't survive a reboot without a bug or your help.<br>
-But it can steal everything you care about in the time it takes you to read this sentence.<br>
+Standard user malware can still be lethal,
+it can steal everything you care about in the time it takes you to read this sentence.<br>
 Check before you click.<br>
 CFA on. VirusTotal if you're unsure.
 
@@ -78,7 +95,7 @@ This is what any process is capable of once you click "Yes" on the UAC prompt.
 
 Admin processes can escalate to this. `psexec` is a live example (a legitimate Sysinternals tool used to obtain system rights). 
 
-This is basically what an 80% capability looks like. While it inherits almost the exact same handles as Admin, it has increased access, an increased ability to load drivers, and many other abilities.
+This is basically what an 80% capability looks like. While it inherits almost the exact same handles as Admin, it has Broader access, and many other functionalities.
 
 ## Kernel
 (`ntoskrnl.exe`, `hal.dll`, `.sys` files)
@@ -107,4 +124,4 @@ If you really need it:
 * Run it on VirusTotal.
 
 **For better analysis**
-Go to Analyzing Executables
+[Go to Analyzing Executables](https://github.com/Salah-Code-Lab/Empowering-Users/blob/Basic/Analyzing%20Executables.md)
