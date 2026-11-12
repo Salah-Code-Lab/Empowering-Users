@@ -1,8 +1,6 @@
 > Note: This project is Incomplete, may have Inaccuracies, but I will attempt to fix all when I have more free time in the Future
 
 
-This manual had been made not only for that purpose but also for a another reason which is:
-
 Tools are powerful Yes, But the most powerful tool you can have is Your mind and reasoning.
 
 
