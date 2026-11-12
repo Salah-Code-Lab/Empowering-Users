@@ -10,6 +10,7 @@ Standard rights correspond to the **Medium Integrity Token**.
 The things it is capable of are many, but the most important core functions include:
 
 1. Read/Write (R/W) access to files (`Desktop`, `Documents`, `Music`, etc.).
+
 2. Establishing connections with external servers (C2 servers, etc.).
 3. Writing to the HKCU hive (adding itself as installed software; cannot execute Local Privilege Escalation (LPE) unless a vulnerability is leveraged—*ahem, legacy hives, ahem*).
 4. Consuming 100% of user resources (CPU, GPU, RAM).
@@ -30,11 +31,15 @@ However, this token is Capable of persisting on your PC via Run keys in HKCU for
 
 1. Populating itself as a scheduled task
 
+
 2. Adding itself to run keys within the HKCU hive
 
-* Run keys can be multiple such as:
+- Run keys can be multiple such as:
+
 HKCU\Software\Microsoft\Windows\CurrentVersion\Run
+
 HKCU\Software\Microsoft\Windows\CurrentVersion\RunOnce
+
 HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run
 
 3. COM Hijacking 
@@ -44,8 +49,10 @@ etc, etc.
 
 
 The counter to it is mainly just not downloading any executable you see. But if you can't and you just have that urge, at least:
-* Have CFA (Controlled Folder Access via Defender) enabled (Write Protection Only).
-* Check it on VirusTotal.
+- Have CFA (Controlled Folder Access via Defender) enabled (Write Protection Only).
+
+- Check it on VirusTotal.
+
 
 As for `.dll` files, they can be executed via any other executable and will inherit the parent token (Medium Integrity or High Integrity Token [Admin]). 
 
@@ -68,23 +75,40 @@ This is where it gets extremely serious. An Admin token is capable of doing abou
 A High Integrity Token is the equivalent of having the ability to completely take over the whole OS.
 
 Admin rights are capable of:
-* Establishing persistence
-* Escalating to a higher token
-* Loading drivers (`.sys`)
-* Modifying and manipulating the boot configuration data (BCD)
-* Writing the bootmgr
-* Wiping drives
-* Writing bootcode
-* Writing system files
-* Setting handles (setting itself as a critical process that cannot be terminated; if terminated, the system will bugcheck with `0xEF`)
-* Accessing each and every file
-* Uploading files to your OS
-* Taking full control of your system
-* Modifying the OS
-* Deleting critical folders
-* Encrypting the MFT (only under certain circumstances, like Petya, for example)
-* Mounting hives
-* Accessing the whole registry
+- Establishing persistence
+
+- Escalating to a higher token
+
+- Loading drivers (`.sys`)
+
+- Modifying and manipulating the boot configuration data (BCD)
+
+- Writing the bootmgr
+
+- Wiping drives
+
+- Writing bootcode
+
+- Writing system files
+
+- Setting handles (setting itself as a critical process that cannot be terminated; if terminated, the system will bugcheck with `0xEF`)
+
+- Accessing each and every file
+
+- Uploading files to your OS
+
+- Taking full control of your system
+
+- Modifying the OS
+
+- Deleting critical folders
+
+- Encrypting the MFT (only under certain circumstances, like Petya, for example)
+
+- Mounting hives
+
+- Accessing the whole registry
+
 
 This is what any process is capable of once you click "Yes" on the UAC prompt.
 
@@ -119,9 +143,12 @@ And most of all: if any individual tells you to download this `.exe` or that `.e
 Not even a server—do not trust anything that tells you to download an `.exe` to play a game. 
 
 If you really need it:
-* Search for its reputation.
-* Make sure the source is reputable.
-* Run it on VirusTotal.
+- Search for its reputation.
+
+- Make sure the source is reputable.
+
+- Run it on VirusTotal.
+
 
 **For better analysis**
 [Go to Analyzing Executables](https://github.com/Salah-Code-Lab/Empowering-Users/blob/Basic/Analyzing%20Executables.md)
