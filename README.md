@@ -6,6 +6,8 @@ knowledge share never stops
 
 **2026\2\9: made pushes for more manuals or Topics**
 
+**2026\11\13: Deleted Analyzing Executables, will be back up when it is rewritten, because the manual itself is confusing.**
+
 If you find any issues, any Misinformation or things straight up Wrong 
 Contact me or/and Raise an issue 
 
